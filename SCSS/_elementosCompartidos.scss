@@ -1,0 +1,47 @@
+#header{height: 20vh; 
+    font-family:$fontShadow; font-size: 2rem; 
+    padding-right: 200px;
+    background-image:$fondoHeader;
+     }
+
+#cripta_animacion{
+    transform: scale(1.2);
+    transition: transform 4s;
+
+    transition: width 2s, height 2s, transform 5s;
+    
+        :hover{width: 100px;
+        height: 50px;
+        transform: rotate(180deg);
+}}
+   
+
+#main{ height: 80vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+#nav {
+    height: 10vh;
+    
+}
+
+#section_info{
+    font-family: $fontSausage; font-size: 1.3em; background-color: map-get($estilo-nav, contacto);
+}
+
+#section_info1{font-family:$fontSausage; font-size: 1.2rem;
+
+}
+
+#section_info_3{font-family:$fontSausage; font-size: 1.2rem;
+
+}
+
+
+
+
+@each $nombre,$color in $estilo-nav{
+    .link-#{$nombre} {background-color: $color}
+
+} 

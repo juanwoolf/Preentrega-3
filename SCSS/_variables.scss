@@ -1,0 +1,22 @@
+
+
+ $fondoHeader:linear-gradient(79deg, rgba(2, 0, 36, 0.7015756986388305) 1%, rgba(18, 213, 122, 1) 56%, rgba(232, 17, 185, 1) 100%);
+
+ @font-face {font-family: "shadow";
+    src: url(../assets/fonts/Terror.otf)
+ }
+$fontShadow: "shadow";
+
+@font-face {
+    font-family: "sausage";
+    src: url(../assets/fonts/Sausage.ttf);
+}
+$fontSausage: "sausage";
+
+$colorFormulario:rgb(25, 135, 84);
+
+$estilo-nav: (contacto: blue,
+                recomendadas:yellow,
+                avances: rgb(191, 15, 182),
+                reviews: green,
+                );

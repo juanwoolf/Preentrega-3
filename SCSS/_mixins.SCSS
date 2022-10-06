@@ -1,0 +1,24 @@
+@mixin reset{margin: 0; padding: 0; box-sizing: border-box;}
+
+@mixin estilo-boton{
+    
+    padding: 6px 12px;
+    border: 3px solid transparent;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem; 
+    color: map-get($estilo-nav,recomendadas),!important;
+    background-color: rgba(255, 215, 196, 0.562);
+}
+    

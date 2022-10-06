@@ -1,0 +1,85 @@
+ #video_loop{width: 100%;height: 100%; margin: 0; padding-left: 20px;
+
+ }
+
+#container_video{width: 100%; border: 0; padding: 0;;
+                h2{ font-family: $fontShadow, font-size 1.3rem; color: white
+
+                };
+                p{font-family: $fontShadow,font-size 50px;color: wheat;text-align: center
+
+                }
+
+
+}
+
+.columna-video{width: 50%;
+
+}
+
+ 
+.body-avances{
+    background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
+    background-repeat: round;
+    ;
+    padding: 0; margin: 0;border: 0;
+    width: 100vw;
+}
+
+
+
+.resena-avance1{background-image: url(../assets/images/cine-proyector.webp); background-size: cover;border-radius: solid green 60px;
+
+}
+
+.resena-avance2{background-image: url(../assets/images/cine-vacio.jfif); background-size: cover; border-radius: solid green 60px;
+
+}
+.resena-avance3{background-image: url(../assets/images/red-carpet.webp); background-size: cover; border-radius: solid green 60px;
+
+}
+
+#container_avances{ background-image: url(../assets/images/cinema2.webp); border-radius: 40px solid green; background-repeat: no-repeat; background-size: cover;
+                    h3{font-family: $fontShadow,font-size 1rem;color: wheat};
+                    p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
+}
+
+
+
+//    --media queries--
+
+ @media only screen and (min-width: 992px) and (max-width:1200px) {
+     #container_avances{ justify-content: center;
+        div{ display: block;
+            col{ display: inline-block;
+            iframe{width: 100%; padding-left: 30%;}}
+                 article{
+                     p{ padding: 0 20px;}
+                }
+
+         
+    }
+         
+ }
+    
+ }
+
+
+// @media only screen and (min-width: 768px) and (max-width:992px) {
+//     #container_avances{ display:flex; align-items: center;
+//         div{ display: block;padding-left: 20%;
+//              col{ 
+//              iframe{width: 100%; padding-left: 10%;}}
+//                  article{ padding-left: 40%; width: auto;
+//                      p{ padding: 0 20px;}
+//                  }
+ 
+          
+//      }
+          
+//  }
+         
+
+         
+// }
+    
