@@ -4,16 +4,16 @@
     background-image:$fondoHeader;
      }
 
-#cripta_animacion{
-    transform: scale(1.2);
-    transition: transform 4s;
+// #cripta_animacion{
+//     transform: scale(1.2);
+//     transition: transform 4s;
 
-    transition: width 2s, height 2s, transform 5s;
+//     transition: width 2s, height 2s, transform 5s;
     
-        :hover{width: 100px;
-        height: 50px;
-        transform: rotate(180deg);
-}}
+//         :hover{width: 100px;
+//         height: 50px;
+//         transform: rotate(180deg);
+// }}
    
 
 #main{ height: 80vh;

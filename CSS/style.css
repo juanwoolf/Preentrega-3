@@ -13,15 +13,6 @@
   padding-right: 200px;
   background-image: linear-gradient(79deg, rgba(2, 0, 36, 0.701576) 1%, #12d57a 56%, #e811b9 100%); }
 
-#cripta_animacion {
-  transform: scale(1.2);
-  transition: transform 4s;
-  transition: width 2s, height 2s, transform 5s; }
-  #cripta_animacion :hover {
-    width: 100px;
-    height: 50px;
-    transform: rotate(180deg); }
-
 #main {
   height: 80vh;
   width: 100vw;
@@ -122,7 +113,7 @@
   padding-left: 20px; }
 
 #container_video {
-  width: 100%;
+  width: 100vw;
   border: 0;
   padding: 0; }
   #container_video h2 {
@@ -150,6 +141,8 @@
   background-image: url(../assets/images/cine-proyector.webp);
   background-size: cover;
   border-radius: solid green 60px; }
+  .resena-avance1 img {
+    width: 75%; }
 
 .resena-avance2 {
   background-image: url(../assets/images/cine-vacio.jfif);
@@ -162,7 +155,7 @@
   border-radius: solid green 60px; }
 
 #container_avances {
-  background-image: url(../assets/images/cinema2.webp);
+  background-image: url(../assets/images/filmoteca.webp);
   border-radius: 40px solid green;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -173,6 +166,14 @@
     font-family: "shadow", font-size 1.5rem;
     color: wheat;
     text-align: justify; }
+
+.texto-video h2 u {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.texto-video p {
+  font-size: 2rem;
+  text-align: start; }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   #container_avances {

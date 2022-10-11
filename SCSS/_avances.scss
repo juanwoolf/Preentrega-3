@@ -2,7 +2,7 @@
 
  }
 
-#container_video{width: 100%; border: 0; padding: 0;;
+#container_video{width: 100vw; border: 0; padding: 0;;
                 h2{ font-family: $fontShadow, font-size 1.3rem; color: white
 
                 };
@@ -28,22 +28,26 @@
 
 
 
-.resena-avance1{background-image: url(../assets/images/cine-proyector.webp); background-size: cover;border-radius: solid green 60px;
+.resena-avance1{background-image: url(../assets/images/cine-proyector.webp); background-size: cover;border-radius: solid green 60px; 
+                img{width: 75%;}
 
 }
 
 .resena-avance2{background-image: url(../assets/images/cine-vacio.jfif); background-size: cover; border-radius: solid green 60px;
+                
 
 }
 .resena-avance3{background-image: url(../assets/images/red-carpet.webp); background-size: cover; border-radius: solid green 60px;
 
 }
 
-#container_avances{ background-image: url(../assets/images/cinema2.webp); border-radius: 40px solid green; background-repeat: no-repeat; background-size: cover;
+#container_avances{ background-image: url(../assets/images/filmoteca.webp); border-radius: 40px solid green; background-repeat: no-repeat; background-size: cover;
                     h3{font-family: $fontShadow,font-size 1rem;color: wheat};
                     p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
 }
 
+.texto-video {h2{ u{font-size: 1.5rem; text-align: center;}}
+            p{font-size:2rem; text-align: start; }}
 
 
 //    --media queries--
