@@ -7,9 +7,11 @@
 
 
 
-#footer_contacto { @extend #footer_index;
-    height: 15vh;
-    margin-top: 40px;
+#footer_contacto { 
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+   
 
 }
 
@@ -23,9 +25,11 @@
 #formulario_general {
     font-family:$fontSausage;
     ;
-    padding-top: 25%;
+    // padding-top: 400px;
+    // margin-top: 10px;
     background-color:$colorFormulario;
-    height: 63vh;
+    height: 70vh;
+    font-size: 2vw,!important;
 
 }
 

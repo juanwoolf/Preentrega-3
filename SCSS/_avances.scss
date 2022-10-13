@@ -17,6 +17,8 @@
 
 }
 
+
+
  
 .body-avances{
     background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
@@ -38,13 +40,12 @@
 
 }
 .resena-avance3{background-image: url(../assets/images/red-carpet.webp); background-size: cover; border-radius: solid green 60px;
-
 }
 
 #container_avances{ background-image: url(../assets/images/filmoteca.webp); border-radius: 40px solid green; background-repeat: no-repeat; background-size: cover;
                     h3{font-family: $fontShadow,font-size 1rem;color: wheat};
                     p{font-family: $fontShadow,font-size 1.5rem;color: wheat;text-align: justify;}
-}
+}                   col{flex-shrink: 1;}
 
 .texto-video {h2{ u{font-size: 1.5rem; text-align: center;}}
             p{font-size:2rem; text-align: start; }}
@@ -69,21 +70,27 @@
  }
 
 
-// @media only screen and (min-width: 768px) and (max-width:992px) {
+ @media only screen and (min-width: 768px) and (max-width:992px) {
 //     #container_avances{ display:flex; align-items: center;
-//         div{ display: block;padding-left: 20%;
-//              col{ 
-//              iframe{width: 100%; padding-left: 10%;}}
-//                  article{ padding-left: 40%; width: auto;
-//                      p{ padding: 0 20px;}
-//                  }
+//          div{ display: block;padding-left: 20%;
+//               col{ 
+//               iframe{width: 100%; padding-left: 10%;}}
+//                   article{ padding-left: 40%; width: auto;
+//                       p{ padding: 0 20px;}
+//                   }
  
           
-//      }
+//       }
           
-//  }
+//   }
          
-
+.body-avances{
+    background-image:url(../assets/images/fondo-avances.webp); border: 0; margin: 0;
+    background-repeat: round;
+    ;
+    padding: 0; margin: 0;border: 0;
+    width: 100vw;
+}
          
-// }
+ }
     

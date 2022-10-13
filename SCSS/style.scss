@@ -11,14 +11,16 @@ html{overflow-x: hidden;}
 // *    -------MEDIA QUERIES-- */
 @media only screen and (min-width: 768px) and (max-width:992px) {
     #footer_index {
-        height: 30vh;
+        height: 40vh;
         width: 100vw;
+        margin-bottom: 0;
 
     }
 
     #footer_contacto {
-        height: 30vh;
-        min-width: 100vw
+        height: auto;
+        text-decoration: none;
+        
     }
 
 }
@@ -27,7 +29,7 @@ html{overflow-x: hidden;}
 
 @media only screen and (min-width: 574px) and (max-width:768px) {
     #footer_index {
-        height: 30vh;
+        height: auto;
         position: absolute;
         width: 100vw;
 
@@ -35,21 +37,20 @@ html{overflow-x: hidden;}
 
 
     #footer_contacto { @include reset;
-        min-width: 100vw;
-        height: 18vh;
-        text-align: start;
+        height: 15vh;
+        text-align: center;
        
 
     }
 
     .body-contacto {
         width: 100vw;
-        height: 169vh,  !important;
+        height: 100vh,  !important;
         background-color: rgb(15, 18, 15);
     }
 
     #formulario_general {
-        height: 71vh;
+        height: 70vh;
 
     }
 
@@ -62,4 +63,10 @@ html{overflow-x: hidden;}
 
 }
 
-    
+@media only screen and (max-width:574px) {
+    #section_info_3 {
+        font-family: $fontSausage;
+        font-size: 1em
+    }
+
+}  
